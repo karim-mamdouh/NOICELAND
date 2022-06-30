@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Karim Mamdouh Mohamed"/>
     <title>NOICELAND</title>
     <link rel="icon" href="./img/logo.svg.jpg" type="image/icon type" />
     <link
@@ -393,8 +394,8 @@
     <!-- Footer start -->
     <footer class="footer">
       <div class="container">
-        <section class="row d-flex flex-row border-bottom">
-          <figure class="w-auto ps-0 pe-2 m-0">
+        <section class=" border-bottom">
+          <figure class=" pe-2 d-inline-block">
             <a href="#">
               <img
                 class="img-fluid"
@@ -403,7 +404,7 @@
               />
             </a>
           </figure>
-          <p class="footer__rights post-author-text w-auto m-0 text-center">
+          <p class="footer__rights m-0 post-author-text d-inline-block text-secondary">
             &copy; 2018 NOICELAND™, ALL RIGHTS RESERVED
           </p>
         </section>
@@ -411,17 +412,60 @@
           <div class="col-lg-8 p-0 order-2 order-lg-1">
             <h5>CATEGORIES</h5>
             <div class="col-lg-12">
-              <div class="row p-0">
-                <a href="#" class="col-3 footer__categ">Animation</a>
-                <a href="#" class="col-3 footer__categ">Architecture</a>
-                <a href="#" class="col-3 footer__categ">Graphic Design</a>
-                <a href="#" class="col-3 footer__categ">Illustration</a>
-                <a href="#" class="col-3 footer__categ">Interactive Design</a>
-                <a href="#" class="col-3 footer__categ">Miscellaneous</a>
-                <a href="#" class="col-3 footer__categ">Photography</a>
-                <a href="#" class="col-3 footer__categ">Product Design</a>
+              <button
+                class="d-md-none footer__categ-btn btn btn-light dropdown-toggle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Category
+              </button>
+              <div class="collapse d-md-block" id="collapseExample">
+                <ul class="row footer__categs ps-3 pt-3 pt-md-0 ps-md-0">
+                  <li class="col-md-3 footer__categ ">
+                    <a href="#" 
+                    >Animation</a
+                  >
+                  </li>
+                  <li class="col-md-3 footer__categ">
+                    <a href="#" 
+                    >Architecture</a
+                  >
+                  </li>
+                  <li class="col-md-3 footer__categ ">
+                    <a href="#" 
+                    >Graphic Design</a
+                  >
+                  </li>
+                  <li class="col-md-3 footer__categ ">
+                    <a href="#" 
+                    >Illustration</a
+                  >
+                  </li>
+                 <li class="col-md-3 footer__categ ">
+                  <a href="#" 
+                  >Interactive Design</a
+                >
+                 </li>
+                  <li class="col-md-3 footer__categ text-dark">
+                    <a href="#" 
+                    >Miscellaneous</a
+                  >
+                  </li>
+                  <li class="col-md-3 footer__categ text-dark">
+                    <a href="#" 
+                    >Photography</a
+                  >
+                  </li>
+                 <li class="col-md-3 footer__categ text-dark">
+                  <a href="#" 
+                  >Product Design</a
+                >
+                 </li>
+                </div>
               </div>
-            </div>
           </div>
           <div class="col-lg-4 p-0 order-1 order-lg-2 pb-5">
             <h5>SUBSCRIBE TO NEWSLETTER</h5>
@@ -437,7 +481,7 @@
             </form>
           </div>
         </section>
-        <section class="row footer__links">
+        <section class="row">
           <div class="col-lg-8 p-0">
             <div class="row p-0">
               <div class="col-lg-3 col-6 pb-lg-0 pb-4">
